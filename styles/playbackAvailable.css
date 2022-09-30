@@ -1,0 +1,34 @@
+.video-preview {
+    position: relative;
+}
+
+/* ///////////////////////////////////////ddd. */
+.video-preview .playback-available {
+    position: absolute;
+    background-color: lightskyblue;
+    /* color: white; */
+    font-family: Roboto, Arial;
+    border-radius: 2px;
+    top: -20px;
+    right: -10px;
+    bottom: -60px;
+    left: -10px;
+    opacity: 0;
+    transition: opacity 2;
+    pointer-events: none;
+    /* what's happening
+    when we hover over tooltip(as it's part of search button) below search button it shows tooltip
+    but we only want tooltip when we hover on search button only */
+    white-space: nowrap;
+    /* ^this will prevent text from wrapping around */
+    /* /// */
+    z-index: 98;
+    /* /// */
+}
+
+/* we only target playback-available when we hover over search- button */
+.video-preview:hover .playback-available {
+    opacity: 1;
+}
+
+/* /////////////////////////////////ddd. */

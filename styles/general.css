@@ -1,0 +1,27 @@
+p {
+  font-family: 'Roboto', Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  margin: 0;
+  /* padding-top: 80px; without scroll-container*/
+  padding-top: 130px;
+  /* ^ after scroll-container */
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+}
+
+/* /////////////////ccc. */
+/* we can put it in right place in video.css */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* +++++++Problem++++++
+link text underline solved
+link color unsolved
+link color changes to red when click unsolved */
+/* /////////////////ccc. */
